@@ -1,0 +1,16 @@
+[
+  {
+    "case_id": "example-regression-table",
+    "paper_title": "Example Paper",
+    "source_url": "https://example.com/paper.pdf",
+    "table_label": "Table I",
+    "page": 12,
+    "files": {
+      "pdf": "cases/example-regression-table/source.pdf",
+      "crop": "cases/example-regression-table/crop.png",
+      "gold_agent_table": "cases/example-regression-table/agent_table.json",
+      "gold_latex": "cases/example-regression-table/table.tex",
+      "qa": "cases/example-regression-table/qa.json"
+    }
+  }
+]

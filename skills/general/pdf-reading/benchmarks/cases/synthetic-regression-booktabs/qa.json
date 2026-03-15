@@ -1,0 +1,10 @@
+[
+  {
+    "answer": "-0.076*",
+    "question": "What is the coefficient for Robot exposure in column (4)?"
+  },
+  {
+    "answer": "Yes",
+    "question": "Does column (3) include State-year FE?"
+  }
+]

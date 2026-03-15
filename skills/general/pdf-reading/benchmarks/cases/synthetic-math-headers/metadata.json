@@ -1,0 +1,26 @@
+{
+  "caption": "Table VI: Structural Parameter Estimates",
+  "case_id": "synthetic-math-headers",
+  "category": "math",
+  "description": "Math-heavy headers and cells with explicit LaTeX overrides.",
+  "notes": [
+    "Parameters satisfy $\\epsilon_L + \\epsilon_K = 1$ by construction."
+  ],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 1,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": true
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Math Header Benchmark"
+}

@@ -1,0 +1,27 @@
+{
+  "caption": "Table I: Baseline Regression Results",
+  "case_id": "synthetic-regression-booktabs",
+  "category": "regression",
+  "description": "Booktabs regression table with coefficient and standard-error rows plus controls and notes.",
+  "notes": [
+    "Robust standard errors in parentheses.",
+    "Significance: * p<0.10, ** p<0.05, *** p<0.01."
+  ],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": true
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Regression Benchmark"
+}

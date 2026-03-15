@@ -1,0 +1,26 @@
+{
+  "caption": "Table VIII: Sector-by-Sector Coefficients",
+  "case_id": "synthetic-sidewaystable",
+  "category": "landscape",
+  "description": "Landscape sidewaystable with many columns.",
+  "notes": [],
+  "render": {
+    "column_spec": null,
+    "font_size": "small",
+    "header_rows": 1,
+    "inner_env": "tabular",
+    "outer_env": "sidewaystable",
+    "packages": [
+      "rotating"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Sideways Benchmark"
+}

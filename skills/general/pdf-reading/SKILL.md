@@ -36,7 +36,7 @@ Extract figures with richer descriptions instead of classifier labels:
 python3 scripts/pdf_extract.py /path/to/paper.pdf --extract-figures --figure-label-mode description
 ```
 
-Extract tables, cleaned Markdown, CSV, and crop images:
+Extract tables, agent-facing JSON, LaTeX, cleaned Markdown, CSV, and crop images:
 
 ```bash
 python3 scripts/pdf_extract.py /path/to/paper.pdf --extract-tables
@@ -54,13 +54,25 @@ Use the faster MarkItDown path only when requested:
 python3 scripts/pdf_extract.py /path/to/paper.pdf --fast
 ```
 
+Generate a synthetic LaTeX benchmark corpus for table extraction:
+
+```bash
+python3 scripts/synthetic_benchmarks.py
+```
+
 ## Outputs
 
 - `<basename>.docling.md`: primary reading artifact from Docling.
+- Inline tables inside `<basename>.docling.md` now get a compact YAML artifact block immediately after the table with links to the extracted table sidecars.
 - `<basename>.layout.txt`: fallback text artifact when Docling fails.
 - `<basename>.docling_artifacts/`: extracted figure images referenced by Markdown.
 - `<basename>.figures.json`: figure metadata, labels, captions, and image paths.
 - `<basename>.tables/`: raw and cleaned table Markdown, CSV exports, and crop images.
-- `<basename>.tables.json`: table metadata and verification flags.
+- `<basename>.tables/<table_nnn>.raw_docling.json`: full Docling table object dump.
+- `<basename>.tables/<table_nnn>.agent.json`: cell/span AST with provenance, regression semantics, and embedded LaTeX.
+- `<basename>.tables/<table_nnn>.html`: Docling HTML rendering for the table.
+- `<basename>.tables/<table_nnn>.otsl.txt`: Docling OTSL table structure dump.
+- `<basename>.tables/<table_nnn>.tex`: synthesized canonical LaTeX table output.
+- `<basename>.tables.json`: table metadata, paths, and verification flags.
 
 The script prints a JSON summary with the exact artifact paths to read next.
