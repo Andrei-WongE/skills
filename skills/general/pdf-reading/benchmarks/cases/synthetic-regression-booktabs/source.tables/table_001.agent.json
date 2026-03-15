@@ -298,7 +298,7 @@
           "text_raw": "Robot exposure"
         }
       ],
-      "role": "row_header",
+      "role": "stub",
       "row_end": 3,
       "row_start": 2,
       "source": "pdfplumber",
@@ -317,7 +317,7 @@
       "col_end": 2,
       "col_start": 1,
       "confidence": 0.79,
-      "latex": "-0.123 \u2217\u2217\u2217 (0.045)",
+      "latex": "-0.123 *** (0.045)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -330,7 +330,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "-0.123 \u2217\u2217\u2217 (0.045)",
+          "text_normalized": "-0.123 *** (0.045)",
           "text_raw": "- 0 . 123 \u2217\u2217\u2217 (0.045)"
         },
         {
@@ -341,7 +341,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "-0.123\u2217\u2217\u2217 (0.045) \u2217\u2217\u2217",
+          "text_normalized": "-0.123*** (0.045) ***",
           "text_raw": "\u22120.123\u2217\u2217\u2217 (0.045) \u2217\u2217\u2217"
         }
       ],
@@ -349,7 +349,7 @@
       "row_end": 3,
       "row_start": 2,
       "source": "docling",
-      "text_normalized": "-0.123 \u2217\u2217\u2217 (0.045)",
+      "text_normalized": "-0.123 *** (0.045)",
       "text_raw": "- 0 . 123 \u2217\u2217\u2217 (0.045)"
     },
     {
@@ -364,7 +364,7 @@
       "col_end": 3,
       "col_start": 2,
       "confidence": 0.79,
-      "latex": "-0.118 \u2217\u2217\u2217 (0.044)",
+      "latex": "-0.118 *** (0.044)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -377,7 +377,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "-0.118 \u2217\u2217\u2217 (0.044)",
+          "text_normalized": "-0.118 *** (0.044)",
           "text_raw": "- 0 . 118 \u2217\u2217\u2217 (0.044)"
         },
         {
@@ -388,7 +388,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "-0.118\u2217\u2217\u2217 (0.044) \u2217\u2217\u2217",
+          "text_normalized": "-0.118*** (0.044) ***",
           "text_raw": "\u22120.118\u2217\u2217\u2217 (0.044) \u2217\u2217\u2217"
         }
       ],
@@ -396,7 +396,7 @@
       "row_end": 3,
       "row_start": 2,
       "source": "docling",
-      "text_normalized": "-0.118 \u2217\u2217\u2217 (0.044)",
+      "text_normalized": "-0.118 *** (0.044)",
       "text_raw": "- 0 . 118 \u2217\u2217\u2217 (0.044)"
     },
     {
@@ -411,7 +411,7 @@
       "col_end": 4,
       "col_start": 3,
       "confidence": 0.79,
-      "latex": "-0.090 \u2217\u2217 (0.038)",
+      "latex": "-0.090 ** (0.038)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -424,7 +424,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "-0.090 \u2217\u2217 (0.038)",
+          "text_normalized": "-0.090 ** (0.038)",
           "text_raw": "- 0 . 090 \u2217\u2217 (0.038)"
         },
         {
@@ -435,7 +435,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "-0.090\u2217\u2217 (0.038) \u2217\u2217\u2217",
+          "text_normalized": "-0.090** (0.038) ***",
           "text_raw": "\u22120.090\u2217\u2217 (0.038) \u2217\u2217\u2217"
         }
       ],
@@ -443,7 +443,7 @@
       "row_end": 3,
       "row_start": 2,
       "source": "docling",
-      "text_normalized": "-0.090 \u2217\u2217 (0.038)",
+      "text_normalized": "-0.090 ** (0.038)",
       "text_raw": "- 0 . 090 \u2217\u2217 (0.038)"
     },
     {
@@ -458,7 +458,7 @@
       "col_end": 5,
       "col_start": 4,
       "confidence": 0.79,
-      "latex": "-0.076 \u2217 (0.041)",
+      "latex": "-0.076 * (0.041)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -471,7 +471,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "-0.076 \u2217 (0.041)",
+          "text_normalized": "-0.076 * (0.041)",
           "text_raw": "- 0 . 076 \u2217 (0.041)"
         },
         {
@@ -482,7 +482,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "-0.076\u2217 (0.041) \u2217\u2217\u2217",
+          "text_normalized": "-0.076* (0.041) ***",
           "text_raw": "\u22120.076\u2217 (0.041) \u2217\u2217\u2217"
         }
       ],
@@ -490,7 +490,7 @@
       "row_end": 3,
       "row_start": 2,
       "source": "docling",
-      "text_normalized": "-0.076 \u2217 (0.041)",
+      "text_normalized": "-0.076 * (0.041)",
       "text_raw": "- 0 . 076 \u2217 (0.041)"
     },
     {
@@ -533,7 +533,7 @@
           "text_raw": "Manufacturing share"
         }
       ],
-      "role": "row_header",
+      "role": "stub",
       "row_end": 4,
       "row_start": 3,
       "source": "pdfplumber",
@@ -552,7 +552,7 @@
       "col_end": 2,
       "col_start": 1,
       "confidence": 0.79,
-      "latex": "0.210 \u2217\u2217\u2217 (0.052)",
+      "latex": "0.210 *** (0.052)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -565,7 +565,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "0.210 \u2217\u2217\u2217 (0.052)",
+          "text_normalized": "0.210 *** (0.052)",
           "text_raw": "0 . 210 \u2217\u2217\u2217 (0.052)"
         },
         {
@@ -576,7 +576,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "0.210\u2217\u2217\u2217 (0.052)",
+          "text_normalized": "0.210*** (0.052)",
           "text_raw": "0.210\u2217\u2217\u2217 (0.052)"
         }
       ],
@@ -584,7 +584,7 @@
       "row_end": 4,
       "row_start": 3,
       "source": "docling",
-      "text_normalized": "0.210 \u2217\u2217\u2217 (0.052)",
+      "text_normalized": "0.210 *** (0.052)",
       "text_raw": "0 . 210 \u2217\u2217\u2217 (0.052)"
     },
     {
@@ -599,7 +599,7 @@
       "col_end": 3,
       "col_start": 2,
       "confidence": 0.79,
-      "latex": "0.185 \u2217\u2217\u2217 (0.048)",
+      "latex": "0.185 *** (0.048)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -612,7 +612,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "0.185 \u2217\u2217\u2217 (0.048)",
+          "text_normalized": "0.185 *** (0.048)",
           "text_raw": "0 . 185 \u2217\u2217\u2217 (0.048)"
         },
         {
@@ -623,7 +623,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "0.185\u2217\u2217\u2217 (0.048)",
+          "text_normalized": "0.185*** (0.048)",
           "text_raw": "0.185\u2217\u2217\u2217 (0.048)"
         }
       ],
@@ -631,7 +631,7 @@
       "row_end": 4,
       "row_start": 3,
       "source": "docling",
-      "text_normalized": "0.185 \u2217\u2217\u2217 (0.048)",
+      "text_normalized": "0.185 *** (0.048)",
       "text_raw": "0 . 185 \u2217\u2217\u2217 (0.048)"
     },
     {
@@ -646,7 +646,7 @@
       "col_end": 4,
       "col_start": 3,
       "confidence": 0.79,
-      "latex": "0.164 \u2217\u2217\u2217 (0.046)",
+      "latex": "0.164 *** (0.046)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -659,7 +659,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "0.164 \u2217\u2217\u2217 (0.046)",
+          "text_normalized": "0.164 *** (0.046)",
           "text_raw": "0 . 164 \u2217\u2217\u2217 (0.046)"
         },
         {
@@ -670,7 +670,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "0.164\u2217\u2217\u2217 (0.046)",
+          "text_normalized": "0.164*** (0.046)",
           "text_raw": "0.164\u2217\u2217\u2217 (0.046)"
         }
       ],
@@ -678,7 +678,7 @@
       "row_end": 4,
       "row_start": 3,
       "source": "docling",
-      "text_normalized": "0.164 \u2217\u2217\u2217 (0.046)",
+      "text_normalized": "0.164 *** (0.046)",
       "text_raw": "0 . 164 \u2217\u2217\u2217 (0.046)"
     },
     {
@@ -693,7 +693,7 @@
       "col_end": 5,
       "col_start": 4,
       "confidence": 0.79,
-      "latex": "0.152 \u2217\u2217\u2217 (0.045)",
+      "latex": "0.152 *** (0.045)",
       "latex_confidence": 0.96,
       "latex_source": "deterministic",
       "needs_review": false,
@@ -706,7 +706,7 @@
           ],
           "source": "docling",
           "suspicious_markers": [],
-          "text_normalized": "0.152 \u2217\u2217\u2217 (0.045)",
+          "text_normalized": "0.152 *** (0.045)",
           "text_raw": "0 . 152 \u2217\u2217\u2217 (0.045)"
         },
         {
@@ -717,7 +717,7 @@
           ],
           "source": "pdfplumber",
           "suspicious_markers": [],
-          "text_normalized": "0.152\u2217\u2217\u2217 (0.045)",
+          "text_normalized": "0.152*** (0.045)",
           "text_raw": "0.152\u2217\u2217\u2217 (0.045)"
         }
       ],
@@ -725,7 +725,7 @@
       "row_end": 4,
       "row_start": 3,
       "source": "docling",
-      "text_normalized": "0.152 \u2217\u2217\u2217 (0.045)",
+      "text_normalized": "0.152 *** (0.045)",
       "text_raw": "0 . 152 \u2217\u2217\u2217 (0.045)"
     },
     {
@@ -768,7 +768,7 @@
           "text_raw": "County controls"
         }
       ],
-      "role": "row_header",
+      "role": "stub",
       "row_end": 5,
       "row_start": 4,
       "source": "pdfplumber",
@@ -987,7 +987,7 @@
           "text_raw": "State-year FE"
         }
       ],
-      "role": "row_header",
+      "role": "stub",
       "row_end": 6,
       "row_start": 5,
       "source": "pdfplumber",
@@ -1202,7 +1202,7 @@
           "text_raw": "Observations"
         }
       ],
-      "role": "row_header",
+      "role": "stub",
       "row_end": 7,
       "row_start": 6,
       "source": "pdfplumber",
@@ -1417,7 +1417,7 @@
           "text_raw": "R-squared"
         }
       ],
-      "role": "row_header",
+      "role": "stub",
       "row_end": 8,
       "row_start": 7,
       "source": "pdfplumber",
@@ -1686,8 +1686,8 @@
   "renderings": {
     "html": "<table><tbody><tr><td></td><th colspan=\"4\">Models</th></tr><tr><th>Variable</th><th>(1)</th><th>(2)</th><th>(3)</th><th>(4)</th></tr><tr><th>Robot exposure</th><td>- 0 . 123 \u2217\u2217\u2217 (0.045)</td><td>- 0 . 118 \u2217\u2217\u2217 (0.044)</td><td>- 0 . 090 \u2217\u2217 (0.038)</td><td>- 0 . 076 \u2217 (0.041)</td></tr><tr><th>Manufacturing share</th><td>0 . 210 \u2217\u2217\u2217 (0.052)</td><td>0 . 185 \u2217\u2217\u2217 (0.048)</td><td>0 . 164 \u2217\u2217\u2217 (0.046)</td><td>0 . 152 \u2217\u2217\u2217 (0.045)</td></tr><tr><th>County controls</th><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><th>State-year FE</th><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><th>Observations</th><td>1000</td><td>1000</td><td>950</td><td>950</td></tr><tr><th>R-squared</th><td>0.21</td><td>0.27</td><td>0.34</td><td>0.39</td></tr></tbody></table>",
     "latex_notes": null,
-    "latex_tabular": "\\begin{tabular}{lcccc}\n\\hline\n & \\multicolumn{4}{c}{Models} \\\\\nVariable & (1) & (2) & (3) & (4) \\\\\nRobot exposure & -0.123 \u2217\u2217\u2217 (0.045) & -0.118 \u2217\u2217\u2217 (0.044) & -0.090 \u2217\u2217 (0.038) & -0.076 \u2217 (0.041) \\\\\nManufacturing share & 0.210 \u2217\u2217\u2217 (0.052) & 0.185 \u2217\u2217\u2217 (0.048) & 0.164 \u2217\u2217\u2217 (0.046) & 0.152 \u2217\u2217\u2217 (0.045) \\\\\nCounty controls & No & Yes & Yes & Yes \\\\\nState-year FE & No & No & Yes & Yes \\\\\nObservations & 1000 & 1000 & 950 & 950 \\\\\nR-squared & 0.21 & 0.27 & 0.34 & 0.39 \\\\\n\\hline\n\\end{tabular}\n",
-    "markdown": "|                     | Models                | Models                | Models               | Models              |\n|---------------------|-----------------------|-----------------------|----------------------|---------------------|\n| Variable            | (1)                   | (2)                   | (3)                  | (4)                 |\n| Robot exposure      | -0.123 \u2217\u2217\u2217 (0.045) | -0.118 \u2217\u2217\u2217 (0.044) | -0.090 \u2217\u2217 (0.038) | -0.076 \u2217 (0.041) |\n| Manufacturing share | 0.210 \u2217\u2217\u2217 (0.052)   | 0.185 \u2217\u2217\u2217 (0.048)   | 0.164 \u2217\u2217\u2217 (0.046)  | 0.152 \u2217\u2217\u2217 (0.045) |\n| County controls     | No                    | Yes                   | Yes                  | Yes                 |\n| State-year FE       | No                    | No                    | Yes                  | Yes                 |\n| Observations        | 1000                  | 1000                  | 950                  | 950                 |\n| R-squared           | 0.21                  | 0.27                  | 0.34                 | 0.39                |"
+    "latex_tabular": "\\begin{tabular}{lcccc}\n\\hline\n & \\multicolumn{4}{c}{Models} \\\\\nVariable & (1) & (2) & (3) & (4) \\\\\nRobot exposure & -0.123 *** (0.045) & -0.118 *** (0.044) & -0.090 ** (0.038) & -0.076 * (0.041) \\\\\nManufacturing share & 0.210 *** (0.052) & 0.185 *** (0.048) & 0.164 *** (0.046) & 0.152 *** (0.045) \\\\\nCounty controls & No & Yes & Yes & Yes \\\\\nState-year FE & No & No & Yes & Yes \\\\\nObservations & 1000 & 1000 & 950 & 950 \\\\\nR-squared & 0.21 & 0.27 & 0.34 & 0.39 \\\\\n\\hline\n\\end{tabular}\n",
+    "markdown": "|                     | Models                | Models                | Models               | Models              |\n|---------------------|-----------------------|-----------------------|----------------------|---------------------|\n| Variable            | (1)                   | (2)                   | (3)                  | (4)                 |\n| Robot exposure      | -0.123 *** (0.045) | -0.118 *** (0.044) | -0.090 ** (0.038) | -0.076 * (0.041) |\n| Manufacturing share | 0.210 *** (0.052)   | 0.185 *** (0.048)   | 0.164 *** (0.046)  | 0.152 *** (0.045) |\n| County controls     | No                    | Yes                   | Yes                  | Yes                 |\n| State-year FE       | No                    | No                    | Yes                  | Yes                 |\n| Observations        | 1000                  | 1000                  | 950                  | 950                 |\n| R-squared           | 0.21                  | 0.27                  | 0.34                 | 0.39                |"
   },
   "schema_version": "2026-03-15",
   "source_pdf": "/Users/aniketpanjwani/.codex/worktrees/81eb/skills/skills/general/pdf-reading/benchmarks/cases/synthetic-regression-booktabs/source.pdf",
