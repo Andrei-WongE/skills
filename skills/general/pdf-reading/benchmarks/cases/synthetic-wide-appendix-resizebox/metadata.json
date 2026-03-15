@@ -1,0 +1,24 @@
+{
+  "caption": "Appendix Table A1: Robustness Checks Across Sectors",
+  "case_id": "synthetic-wide-appendix-resizebox",
+  "category": "appendix-wide",
+  "description": "Wide table with twelve model columns wrapped in a resizebox.",
+  "notes": [],
+  "render": {
+    "column_spec": null,
+    "font_size": "small",
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": true,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Wide Appendix Benchmark"
+}

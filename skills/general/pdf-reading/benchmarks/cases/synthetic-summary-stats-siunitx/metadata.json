@@ -1,0 +1,28 @@
+{
+  "caption": "Table III: Summary Statistics",
+  "case_id": "synthetic-summary-stats-siunitx",
+  "category": "summary-stats",
+  "description": "Summary statistics table using siunitx-style numeric alignment.",
+  "notes": [],
+  "render": {
+    "column_spec": "lSSSSS",
+    "font_size": null,
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [
+      "siunitx"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [
+      "\\sisetup{detect-all,table-number-alignment=center}"
+    ],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Summary Statistics Benchmark"
+}

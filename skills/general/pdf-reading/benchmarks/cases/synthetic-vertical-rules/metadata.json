@@ -1,0 +1,24 @@
+{
+  "caption": "Table IX: Non-Booktabs Formatting",
+  "case_id": "synthetic-vertical-rules",
+  "category": "formatting-variant",
+  "description": "Classic tabular with vertical rules and hlines instead of booktabs.",
+  "notes": [],
+  "render": {
+    "column_spec": "|l|c|c|",
+    "font_size": null,
+    "header_rows": 1,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": false,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Vertical Rules Benchmark"
+}

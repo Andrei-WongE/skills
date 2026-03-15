@@ -1,0 +1,866 @@
+{
+  "caption": "Appendix Table A2: Extended Variable Definitions",
+  "case_id": "synthetic-longtable-appendix",
+  "category": "longtable",
+  "cells": [
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "Variable"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "Mean"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "SD"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "Appendix variable 1"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "0.10"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "0.03"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "Appendix variable 2"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "0.20"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "0.06"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "Appendix variable 3"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "0.30"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "0.09"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "Appendix variable 4"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "0.40"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "0.12"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "Appendix variable 5"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "0.50"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "0.15"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "Appendix variable 6"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "0.60"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "0.18"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "Appendix variable 7"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "0.70"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "0.21"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "Appendix variable 8"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "0.80"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "0.24"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "Appendix variable 9"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "0.90"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "0.27"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 11,
+      "row_start": 10,
+      "text": "Appendix variable 10"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 11,
+      "row_start": 10,
+      "text": "1.00"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 11,
+      "row_start": 10,
+      "text": "0.30"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 12,
+      "row_start": 11,
+      "text": "Appendix variable 11"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 12,
+      "row_start": 11,
+      "text": "1.10"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 12,
+      "row_start": 11,
+      "text": "0.33"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 13,
+      "row_start": 12,
+      "text": "Appendix variable 12"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 13,
+      "row_start": 12,
+      "text": "1.20"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 13,
+      "row_start": 12,
+      "text": "0.36"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 14,
+      "row_start": 13,
+      "text": "Appendix variable 13"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 14,
+      "row_start": 13,
+      "text": "1.30"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 14,
+      "row_start": 13,
+      "text": "0.39"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 15,
+      "row_start": 14,
+      "text": "Appendix variable 14"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 15,
+      "row_start": 14,
+      "text": "1.40"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 15,
+      "row_start": 14,
+      "text": "0.42"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 16,
+      "row_start": 15,
+      "text": "Appendix variable 15"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 16,
+      "row_start": 15,
+      "text": "1.50"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 16,
+      "row_start": 15,
+      "text": "0.45"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 17,
+      "row_start": 16,
+      "text": "Appendix variable 16"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 17,
+      "row_start": 16,
+      "text": "1.60"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 17,
+      "row_start": 16,
+      "text": "0.48"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 18,
+      "row_start": 17,
+      "text": "Appendix variable 17"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 18,
+      "row_start": 17,
+      "text": "1.70"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 18,
+      "row_start": 17,
+      "text": "0.51"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 19,
+      "row_start": 18,
+      "text": "Appendix variable 18"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 19,
+      "row_start": 18,
+      "text": "1.80"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 19,
+      "row_start": 18,
+      "text": "0.54"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 20,
+      "row_start": 19,
+      "text": "Appendix variable 19"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 20,
+      "row_start": 19,
+      "text": "1.90"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 20,
+      "row_start": 19,
+      "text": "0.57"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 21,
+      "row_start": 20,
+      "text": "Appendix variable 20"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 21,
+      "row_start": 20,
+      "text": "2.00"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 21,
+      "row_start": 20,
+      "text": "0.60"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 22,
+      "row_start": 21,
+      "text": "Appendix variable 21"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 22,
+      "row_start": 21,
+      "text": "2.10"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 22,
+      "row_start": 21,
+      "text": "0.63"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 23,
+      "row_start": 22,
+      "text": "Appendix variable 22"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 23,
+      "row_start": 22,
+      "text": "2.20"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 23,
+      "row_start": 22,
+      "text": "0.66"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 24,
+      "row_start": 23,
+      "text": "Appendix variable 23"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 24,
+      "row_start": 23,
+      "text": "2.30"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 24,
+      "row_start": 23,
+      "text": "0.69"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 25,
+      "row_start": 24,
+      "text": "Appendix variable 24"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 25,
+      "row_start": 24,
+      "text": "2.40"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 25,
+      "row_start": 24,
+      "text": "0.72"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 26,
+      "row_start": 25,
+      "text": "Appendix variable 25"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 26,
+      "row_start": 25,
+      "text": "2.50"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 26,
+      "row_start": 25,
+      "text": "0.75"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 27,
+      "row_start": 26,
+      "text": "Appendix variable 26"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 27,
+      "row_start": 26,
+      "text": "2.60"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 27,
+      "row_start": 26,
+      "text": "0.78"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 28,
+      "row_start": 27,
+      "text": "Appendix variable 27"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 28,
+      "row_start": 27,
+      "text": "2.70"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 28,
+      "row_start": 27,
+      "text": "0.81"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 29,
+      "row_start": 28,
+      "text": "Appendix variable 28"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 29,
+      "row_start": 28,
+      "text": "2.80"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 29,
+      "row_start": 28,
+      "text": "0.84"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 30,
+      "row_start": 29,
+      "text": "Appendix variable 29"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 30,
+      "row_start": 29,
+      "text": "2.90"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 30,
+      "row_start": 29,
+      "text": "0.87"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 31,
+      "row_start": 30,
+      "text": "Appendix variable 30"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 31,
+      "row_start": 30,
+      "text": "3.00"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 31,
+      "row_start": 30,
+      "text": "0.90"
+    }
+  ],
+  "description": "Longtable spanning many rows to test extraction beyond a short one-page table.",
+  "notes": [],
+  "qa": [],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 1,
+    "inner_env": "longtable",
+    "outer_env": "table",
+    "packages": [
+      "longtable"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Longtable Benchmark"
+}

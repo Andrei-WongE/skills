@@ -1,0 +1,26 @@
+{
+  "caption": "Appendix Table A2: Extended Variable Definitions",
+  "case_id": "synthetic-longtable-appendix",
+  "category": "longtable",
+  "description": "Longtable spanning many rows to test extraction beyond a short one-page table.",
+  "notes": [],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 1,
+    "inner_env": "longtable",
+    "outer_env": "table",
+    "packages": [
+      "longtable"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Longtable Benchmark"
+}

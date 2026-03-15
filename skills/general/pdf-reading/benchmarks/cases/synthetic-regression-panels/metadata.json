@@ -1,0 +1,26 @@
+{
+  "caption": "Table II: Heterogeneity by Task Type",
+  "case_id": "synthetic-regression-panels",
+  "category": "regression",
+  "description": "Multi-panel regression table with separate panels and repeated coefficient/stderr structures.",
+  "notes": [
+    "Panels split counties by routine task intensity."
+  ],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": true
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Panel Regression Benchmark"
+}

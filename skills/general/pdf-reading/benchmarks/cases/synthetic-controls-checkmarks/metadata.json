@@ -1,0 +1,29 @@
+{
+  "caption": "Table V: Incremental Controls",
+  "case_id": "synthetic-controls-checkmarks",
+  "category": "controls",
+  "description": "Regression table with checkmarks, yes/no controls, and note-heavy footer.",
+  "notes": [
+    "Checkmarks indicate included control sets.",
+    "All columns use population weights."
+  ],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [
+      "amssymb"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": true
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Controls Benchmark"
+}

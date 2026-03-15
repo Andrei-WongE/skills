@@ -1,0 +1,110 @@
+{
+  "caption": "Table VII: Survey Outcomes With Long Labels",
+  "case_id": "synthetic-tabularx-wrapped-stubs",
+  "category": "wrapped-stubs",
+  "cells": [
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "Outcome"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "Control"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "Treatment"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "Share reporting that their main job tasks changed substantially after automation adoption"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "0.18"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "0.31"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "Share expecting training needs to increase over the next two years"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "0.42"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "0.58"
+    }
+  ],
+  "description": "Tabularx case with long variable labels that should wrap inside the stub column.",
+  "notes": [],
+  "qa": [],
+  "render": {
+    "column_spec": "Xcc",
+    "font_size": null,
+    "header_rows": 1,
+    "inner_env": "tabularx",
+    "outer_env": "table",
+    "packages": [
+      "tabularx"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Wrapped Stub Benchmark"
+}

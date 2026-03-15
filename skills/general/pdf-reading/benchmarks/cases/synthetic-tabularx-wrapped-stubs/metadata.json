@@ -1,0 +1,26 @@
+{
+  "caption": "Table VII: Survey Outcomes With Long Labels",
+  "case_id": "synthetic-tabularx-wrapped-stubs",
+  "category": "wrapped-stubs",
+  "description": "Tabularx case with long variable labels that should wrap inside the stub column.",
+  "notes": [],
+  "render": {
+    "column_spec": "Xcc",
+    "font_size": null,
+    "header_rows": 1,
+    "inner_env": "tabularx",
+    "outer_env": "table",
+    "packages": [
+      "tabularx"
+    ],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Wrapped Stub Benchmark"
+}

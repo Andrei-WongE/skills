@@ -1,0 +1,178 @@
+[
+  {
+    "case_id": "synthetic-regression-booktabs",
+    "files": {
+      "crop": "cases/synthetic-regression-booktabs/crop.png",
+      "gold_agent_table": "cases/synthetic-regression-booktabs/agent_table.json",
+      "gold_latex": "cases/synthetic-regression-booktabs/table.tex",
+      "metadata": "cases/synthetic-regression-booktabs/metadata.json",
+      "pdf": "cases/synthetic-regression-booktabs/source.pdf",
+      "qa": "cases/synthetic-regression-booktabs/qa.json",
+      "source_tex": "cases/synthetic-regression-booktabs/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Regression Benchmark",
+    "source_url": null,
+    "table_label": "Table I: Baseline Regression Results"
+  },
+  {
+    "case_id": "synthetic-regression-panels",
+    "files": {
+      "crop": "cases/synthetic-regression-panels/crop.png",
+      "gold_agent_table": "cases/synthetic-regression-panels/agent_table.json",
+      "gold_latex": "cases/synthetic-regression-panels/table.tex",
+      "metadata": "cases/synthetic-regression-panels/metadata.json",
+      "pdf": "cases/synthetic-regression-panels/source.pdf",
+      "qa": "cases/synthetic-regression-panels/qa.json",
+      "source_tex": "cases/synthetic-regression-panels/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Panel Regression Benchmark",
+    "source_url": null,
+    "table_label": "Table II: Heterogeneity by Task Type"
+  },
+  {
+    "case_id": "synthetic-summary-stats-siunitx",
+    "files": {
+      "crop": "cases/synthetic-summary-stats-siunitx/crop.png",
+      "gold_agent_table": "cases/synthetic-summary-stats-siunitx/agent_table.json",
+      "gold_latex": "cases/synthetic-summary-stats-siunitx/table.tex",
+      "metadata": "cases/synthetic-summary-stats-siunitx/metadata.json",
+      "pdf": "cases/synthetic-summary-stats-siunitx/source.pdf",
+      "qa": "cases/synthetic-summary-stats-siunitx/qa.json",
+      "source_tex": "cases/synthetic-summary-stats-siunitx/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Summary Statistics Benchmark",
+    "source_url": null,
+    "table_label": "Table III: Summary Statistics"
+  },
+  {
+    "case_id": "synthetic-wide-appendix-resizebox",
+    "files": {
+      "crop": "cases/synthetic-wide-appendix-resizebox/crop.png",
+      "gold_agent_table": "cases/synthetic-wide-appendix-resizebox/agent_table.json",
+      "gold_latex": "cases/synthetic-wide-appendix-resizebox/table.tex",
+      "metadata": "cases/synthetic-wide-appendix-resizebox/metadata.json",
+      "pdf": "cases/synthetic-wide-appendix-resizebox/source.pdf",
+      "qa": "cases/synthetic-wide-appendix-resizebox/qa.json",
+      "source_tex": "cases/synthetic-wide-appendix-resizebox/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Wide Appendix Benchmark",
+    "source_url": null,
+    "table_label": "Appendix Table A1: Robustness Checks Across Sectors"
+  },
+  {
+    "case_id": "synthetic-multirow-headers",
+    "files": {
+      "crop": "cases/synthetic-multirow-headers/crop.png",
+      "gold_agent_table": "cases/synthetic-multirow-headers/agent_table.json",
+      "gold_latex": "cases/synthetic-multirow-headers/table.tex",
+      "metadata": "cases/synthetic-multirow-headers/metadata.json",
+      "pdf": "cases/synthetic-multirow-headers/source.pdf",
+      "qa": "cases/synthetic-multirow-headers/qa.json",
+      "source_tex": "cases/synthetic-multirow-headers/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Multirow Header Benchmark",
+    "source_url": null,
+    "table_label": "Table IV: Outcomes by Demographic Group"
+  },
+  {
+    "case_id": "synthetic-controls-checkmarks",
+    "files": {
+      "crop": "cases/synthetic-controls-checkmarks/crop.png",
+      "gold_agent_table": "cases/synthetic-controls-checkmarks/agent_table.json",
+      "gold_latex": "cases/synthetic-controls-checkmarks/table.tex",
+      "metadata": "cases/synthetic-controls-checkmarks/metadata.json",
+      "pdf": "cases/synthetic-controls-checkmarks/source.pdf",
+      "qa": "cases/synthetic-controls-checkmarks/qa.json",
+      "source_tex": "cases/synthetic-controls-checkmarks/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Controls Benchmark",
+    "source_url": null,
+    "table_label": "Table V: Incremental Controls"
+  },
+  {
+    "case_id": "synthetic-math-headers",
+    "files": {
+      "crop": "cases/synthetic-math-headers/crop.png",
+      "gold_agent_table": "cases/synthetic-math-headers/agent_table.json",
+      "gold_latex": "cases/synthetic-math-headers/table.tex",
+      "metadata": "cases/synthetic-math-headers/metadata.json",
+      "pdf": "cases/synthetic-math-headers/source.pdf",
+      "qa": "cases/synthetic-math-headers/qa.json",
+      "source_tex": "cases/synthetic-math-headers/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Math Header Benchmark",
+    "source_url": null,
+    "table_label": "Table VI: Structural Parameter Estimates"
+  },
+  {
+    "case_id": "synthetic-tabularx-wrapped-stubs",
+    "files": {
+      "crop": "cases/synthetic-tabularx-wrapped-stubs/crop.png",
+      "gold_agent_table": "cases/synthetic-tabularx-wrapped-stubs/agent_table.json",
+      "gold_latex": "cases/synthetic-tabularx-wrapped-stubs/table.tex",
+      "metadata": "cases/synthetic-tabularx-wrapped-stubs/metadata.json",
+      "pdf": "cases/synthetic-tabularx-wrapped-stubs/source.pdf",
+      "qa": "cases/synthetic-tabularx-wrapped-stubs/qa.json",
+      "source_tex": "cases/synthetic-tabularx-wrapped-stubs/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Wrapped Stub Benchmark",
+    "source_url": null,
+    "table_label": "Table VII: Survey Outcomes With Long Labels"
+  },
+  {
+    "case_id": "synthetic-longtable-appendix",
+    "files": {
+      "crop": "cases/synthetic-longtable-appendix/crop.png",
+      "gold_agent_table": "cases/synthetic-longtable-appendix/agent_table.json",
+      "gold_latex": "cases/synthetic-longtable-appendix/table.tex",
+      "metadata": "cases/synthetic-longtable-appendix/metadata.json",
+      "pdf": "cases/synthetic-longtable-appendix/source.pdf",
+      "qa": "cases/synthetic-longtable-appendix/qa.json",
+      "source_tex": "cases/synthetic-longtable-appendix/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Longtable Benchmark",
+    "source_url": null,
+    "table_label": "Appendix Table A2: Extended Variable Definitions"
+  },
+  {
+    "case_id": "synthetic-sidewaystable",
+    "files": {
+      "crop": "cases/synthetic-sidewaystable/crop.png",
+      "gold_agent_table": "cases/synthetic-sidewaystable/agent_table.json",
+      "gold_latex": "cases/synthetic-sidewaystable/table.tex",
+      "metadata": "cases/synthetic-sidewaystable/metadata.json",
+      "pdf": "cases/synthetic-sidewaystable/source.pdf",
+      "qa": "cases/synthetic-sidewaystable/qa.json",
+      "source_tex": "cases/synthetic-sidewaystable/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Sideways Benchmark",
+    "source_url": null,
+    "table_label": "Table VIII: Sector-by-Sector Coefficients"
+  },
+  {
+    "case_id": "synthetic-vertical-rules",
+    "files": {
+      "crop": "cases/synthetic-vertical-rules/crop.png",
+      "gold_agent_table": "cases/synthetic-vertical-rules/agent_table.json",
+      "gold_latex": "cases/synthetic-vertical-rules/table.tex",
+      "metadata": "cases/synthetic-vertical-rules/metadata.json",
+      "pdf": "cases/synthetic-vertical-rules/source.pdf",
+      "qa": "cases/synthetic-vertical-rules/qa.json",
+      "source_tex": "cases/synthetic-vertical-rules/source.tex"
+    },
+    "page": 1,
+    "paper_title": "Synthetic Vertical Rules Benchmark",
+    "source_url": null,
+    "table_label": "Table IX: Non-Booktabs Formatting"
+  }
+]

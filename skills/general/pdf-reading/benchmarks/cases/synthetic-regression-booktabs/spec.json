@@ -1,0 +1,462 @@
+{
+  "caption": "Table I: Baseline Regression Results",
+  "case_id": "synthetic-regression-booktabs",
+  "category": "regression",
+  "cells": [
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": ""
+    },
+    {
+      "col_end": 5,
+      "col_start": 1,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 1,
+      "row_start": 0,
+      "text": "Models"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "Variable"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "(1)"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "(2)"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "(3)"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "column_header",
+      "row_end": 2,
+      "row_start": 1,
+      "text": "(4)"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "Robot exposure"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "-0.123***"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "-0.118***"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "-0.090**"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 3,
+      "row_start": 2,
+      "text": "-0.076*"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "empty",
+      "row_end": 4,
+      "row_start": 3,
+      "text": ""
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "(0.045)"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "(0.044)"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "(0.038)"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 4,
+      "row_start": 3,
+      "text": "(0.041)"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "Manufacturing share"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "0.210***"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "0.185***"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "0.164***"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 5,
+      "row_start": 4,
+      "text": "0.152***"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "empty",
+      "row_end": 6,
+      "row_start": 5,
+      "text": ""
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "(0.052)"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "(0.048)"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "(0.046)"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 6,
+      "row_start": 5,
+      "text": "(0.045)"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "County controls"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "No"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "Yes"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "Yes"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 7,
+      "row_start": 6,
+      "text": "Yes"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "State-year FE"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "No"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "No"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "Yes"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 8,
+      "row_start": 7,
+      "text": "Yes"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "Observations"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "1000"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "1000"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "950"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 9,
+      "row_start": 8,
+      "text": "950"
+    },
+    {
+      "col_end": 1,
+      "col_start": 0,
+      "latex": null,
+      "role": "stub",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "R-squared"
+    },
+    {
+      "col_end": 2,
+      "col_start": 1,
+      "latex": null,
+      "role": "data",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "0.21"
+    },
+    {
+      "col_end": 3,
+      "col_start": 2,
+      "latex": null,
+      "role": "data",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "0.27"
+    },
+    {
+      "col_end": 4,
+      "col_start": 3,
+      "latex": null,
+      "role": "data",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "0.34"
+    },
+    {
+      "col_end": 5,
+      "col_start": 4,
+      "latex": null,
+      "role": "data",
+      "row_end": 10,
+      "row_start": 9,
+      "text": "0.39"
+    }
+  ],
+  "description": "Booktabs regression table with coefficient and standard-error rows plus controls and notes.",
+  "notes": [
+    "Robust standard errors in parentheses.",
+    "Significance: * p<0.10, ** p<0.05, *** p<0.01."
+  ],
+  "qa": [
+    {
+      "answer": "-0.076*",
+      "question": "What is the coefficient for Robot exposure in column (4)?"
+    },
+    {
+      "answer": "Yes",
+      "question": "Does column (3) include State-year FE?"
+    }
+  ],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": true
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Regression Benchmark"
+}

@@ -1,0 +1,24 @@
+{
+  "caption": "Table IV: Outcomes by Demographic Group",
+  "case_id": "synthetic-multirow-headers",
+  "category": "complex-headers",
+  "description": "Table with multirow and multicolumn headers to stress header hierarchy reconstruction.",
+  "notes": [],
+  "render": {
+    "column_spec": null,
+    "font_size": null,
+    "header_rows": 2,
+    "inner_env": "tabular",
+    "outer_env": "table",
+    "packages": [],
+    "placement": "htbp",
+    "preamble_lines": [],
+    "use_adjustbox": false,
+    "use_booktabs": true,
+    "use_landscape": false,
+    "use_resizebox": false,
+    "use_threeparttable": false
+  },
+  "source_description": "synthetic-latex",
+  "title": "Synthetic Multirow Header Benchmark"
+}
