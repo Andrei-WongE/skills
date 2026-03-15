@@ -95,7 +95,12 @@ def _repair_misplaced_signs(text: str, report: TableCleanupReport) -> str:
 def normalize_cell_text(text: str | None) -> tuple[str, CellTextCleanupReport]:
     original = (text or "").replace("\u00a0", " ")
     report = CellTextCleanupReport(original_text=original, normalized_text=original)
-    cleaned = original.replace("\u2212", "-")
+    cleaned = (
+        original.replace("\u00ad", "")
+        .replace("\u2212", "-")
+        .replace("∗", "*")
+        .replace("−", "-")
+    )
 
     decimal_patterns = (
         r"(?<=\d)\s*/periodori\s*(?=\d)",
@@ -115,6 +120,7 @@ def normalize_cell_text(text: str | None) -> tuple[str, CellTextCleanupReport]:
         (r"\(\s+(?=[-0-9])", "("),
         (r"(?<=\d)\s+\)", ")"),
         (r"(?<=\d)\s*\.\s*(?=\d)", "."),
+        (r"(?<=[Α-Ωα-ωϵεβ])\s+(?=[A-ZΑ-Ωα-ωϵεβ])", ""),
         (r"\s+", " "),
     )
     for pattern, repl in spacing_patterns:
@@ -151,7 +157,7 @@ def normalize_cell_text(text: str | None) -> tuple[str, CellTextCleanupReport]:
 
 def clean_table_markdown(text: str) -> tuple[str, TableCleanupReport]:
     report = TableCleanupReport()
-    cleaned = text.replace("\u2212", "-")
+    cleaned = text.replace("\u2212", "-").replace("∗", "*").replace("−", "-")
 
     decimal_patterns = (
         r"(?<=\d)\s*/periodori\s*(?=\d)",

@@ -3,7 +3,14 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from table_agent import build_agent_table, cell_text_to_latex
+from table_agent import (
+    _rebuild_rotated_table_from_words,
+    _reconstruct_paired_group_header,
+    _reconstruct_grouped_header,
+    _refresh_cells,
+    build_agent_table,
+    cell_text_to_latex,
+)
 from table_cleanup import TableCleanupReport
 
 
@@ -130,3 +137,110 @@ def test_build_agent_table_matches_regression_fixture() -> None:
     cells_by_id = {cell["cell_id"]: cell for cell in agent_table["cells"]}
     assert cells_by_id["r2_c1"]["latex"] == "$-0.123^{***}$"
     assert cells_by_id["r4_c1"]["text_normalized"] == "Yes"
+
+
+def test_reconstruct_grouped_header_splits_summary_stats_header() -> None:
+    cells = [
+        {"row_start": 0, "row_end": 1, "col_start": 0, "col_end": 1, "role": "column_header", "text_normalized": "Variable", "text_raw": "Variable"},
+        {"row_start": 0, "row_end": 1, "col_start": 1, "col_end": 2, "role": "data", "text_normalized": "Mean", "text_raw": "Mean"},
+        {"row_start": 0, "row_end": 1, "col_start": 2, "col_end": 3, "role": "column_header", "text_normalized": "SD", "text_raw": "SD"},
+        {"row_start": 0, "row_end": 1, "col_start": 3, "col_end": 4, "role": "column_header", "text_normalized": "Moments P25", "text_raw": "Moments P25"},
+        {"row_start": 0, "row_end": 1, "col_start": 4, "col_end": 5, "role": "column_header", "text_normalized": "P50", "text_raw": "P50"},
+        {"row_start": 0, "row_end": 1, "col_start": 5, "col_end": 6, "role": "column_header", "text_normalized": "P75", "text_raw": "P75"},
+        {"row_start": 1, "row_end": 2, "col_start": 0, "col_end": 1, "role": "row_header", "text_normalized": "Employment growth", "text_raw": "Employment growth"},
+        {"row_start": 1, "row_end": 2, "col_start": 1, "col_end": 2, "role": "data", "text_normalized": "0.014", "text_raw": "0.014"},
+    ]
+
+    rebuilt, n_rows = _reconstruct_grouped_header(cells, 3, 6)
+    refreshed = _refresh_cells(rebuilt)
+    by_position = {(cell["row_start"], cell["col_start"]): cell for cell in refreshed}
+
+    assert n_rows == 4
+    assert by_position[(0, 1)]["text_normalized"] == "Moments"
+    assert by_position[(0, 1)]["col_end"] == 6
+    assert by_position[(1, 3)]["text_normalized"] == "P25"
+    assert by_position[(2, 0)]["text_normalized"] == "Employment growth"
+
+
+def test_rebuild_rotated_table_from_words_recovers_landscape_structure() -> None:
+    words = [
+        {"text": "elbaT", "x0": 10.0, "top": 10.0, "upright": False},
+        {"text": ":1", "x0": 10.0, "top": 20.0, "upright": False},
+        {"text": "IIIV", "x0": 10.0, "top": 30.0, "upright": False},
+        {"text": "rotceS-yb-rotceS", "x0": 10.0, "top": 40.0, "upright": False},
+        {"text": "stneiciffeoC", "x0": 10.0, "top": 50.0, "upright": False},
+        {"text": "rotceS", "x0": 20.0, "top": 100.0, "upright": False},
+        {"text": ")1(", "x0": 20.0, "top": 90.0, "upright": False},
+        {"text": ")2(", "x0": 20.0, "top": 80.0, "upright": False},
+        {"text": ")3(", "x0": 20.0, "top": 70.0, "upright": False},
+        {"text": "toboR", "x0": 30.0, "top": 100.0, "upright": False},
+        {"text": "erusopxe", "x0": 30.0, "top": 90.0, "upright": False},
+        {"text": "11.0-", "x0": 30.0, "top": 80.0, "upright": False},
+        {"text": "90.0-", "x0": 30.0, "top": 70.0, "upright": False},
+        {"text": "70.0-", "x0": 30.0, "top": 60.0, "upright": False},
+        {"text": "dradnatS", "x0": 40.0, "top": 100.0, "upright": False},
+        {"text": "rorre", "x0": 40.0, "top": 90.0, "upright": False},
+        {"text": ")40.0(", "x0": 40.0, "top": 80.0, "upright": False},
+        {"text": ")30.0(", "x0": 40.0, "top": 70.0, "upright": False},
+        {"text": ")30.0(", "x0": 40.0, "top": 60.0, "upright": False},
+    ]
+
+    rebuilt, n_rows, n_cols, title, notes = _rebuild_rotated_table_from_words(
+        words,
+        current_n_rows=12,
+        current_n_cols=2,
+        title=None,
+        notes=[],
+    )
+
+    assert rebuilt is not None
+    assert n_rows == 3
+    assert n_cols == 4
+    assert title == "Coefficients Sector-by-Sector VIII 1: Table"
+    assert notes == []
+    refreshed = _refresh_cells(rebuilt)
+    by_position = {(cell["row_start"], cell["col_start"]): cell for cell in refreshed}
+    assert by_position[(0, 0)]["text_normalized"] == "Sector"
+    assert by_position[(1, 0)]["text_normalized"] == "Robot exposure"
+    assert by_position[(2, 0)]["text_normalized"] == "Standard error"
+    assert by_position[(1, 1)]["text_normalized"] == "-0.11"
+    assert by_position[(2, 1)]["text_normalized"] == "(0.04)"
+
+
+def test_refresh_cells_maps_math_aliases() -> None:
+    refreshed = _refresh_cells(
+        [
+            {"row_start": 0, "row_end": 1, "col_start": 1, "col_end": 2, "role": "column_header", "text_normalized": "βˆ", "text_raw": "βˆ"},
+            {"row_start": 1, "row_end": 2, "col_start": 0, "col_end": 1, "role": "stub", "text_normalized": "ϵ L", "text_raw": "ϵ L"},
+        ]
+    )
+    by_position = {(cell["row_start"], cell["col_start"]): cell for cell in refreshed}
+    assert by_position[(0, 1)]["text_normalized"] == "Estimate"
+    assert by_position[(0, 1)]["latex"] == r"$\hat{\beta}$"
+    assert by_position[(1, 0)]["text_normalized"] == "Labor elasticity"
+    assert by_position[(1, 0)]["latex"] == r"$\epsilon_L$"
+
+
+def test_reconstruct_paired_group_header_splits_compound_row() -> None:
+    cells = [
+        {"row_start": 0, "row_end": 1, "col_start": 0, "col_end": 1, "role": "column_header", "text_normalized": "Outcome Men Mean", "text_raw": "Outcome Men Mean"},
+        {"row_start": 0, "row_end": 1, "col_start": 1, "col_end": 2, "role": "column_header", "text_normalized": "SD", "text_raw": "SD"},
+        {"row_start": 0, "row_end": 1, "col_start": 2, "col_end": 3, "role": "column_header", "text_normalized": "Mean", "text_raw": "Mean"},
+        {"row_start": 0, "row_end": 1, "col_start": 3, "col_end": 4, "role": "column_header", "text_normalized": "Women SD", "text_raw": "Women SD"},
+        {"row_start": 0, "row_end": 1, "col_start": 4, "col_end": 5, "role": "column_header", "text_normalized": "", "text_raw": ""},
+        {"row_start": 1, "row_end": 2, "col_start": 0, "col_end": 1, "role": "row_header", "text_normalized": "Employment", "text_raw": "Employment"},
+        {"row_start": 1, "row_end": 2, "col_start": 1, "col_end": 2, "role": "data", "text_normalized": "0.82", "text_raw": "0.82"},
+    ]
+
+    rebuilt, n_rows = _reconstruct_paired_group_header(cells, 2, 5)
+    refreshed = _refresh_cells(rebuilt)
+    by_position = {(cell["row_start"], cell["col_start"]): cell for cell in refreshed}
+
+    assert n_rows == 3
+    assert by_position[(0, 0)]["text_normalized"] == "Outcome"
+    assert by_position[(0, 1)]["text_normalized"] == "Men"
+    assert by_position[(0, 3)]["text_normalized"] == "Women"
+    assert by_position[(1, 1)]["text_normalized"] == "Mean"
+    assert by_position[(1, 2)]["text_normalized"] == "SD"
+    assert by_position[(1, 3)]["text_normalized"] == "Mean"
+    assert by_position[(1, 4)]["text_normalized"] == "SD"
