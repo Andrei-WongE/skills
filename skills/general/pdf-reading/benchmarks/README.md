@@ -81,3 +81,15 @@ python3 scripts/evaluate_tables.py \
   --predicted-latex /path/to/predicted.tex \
   --gold-latex benchmarks/cases/example/table.tex
 ```
+
+To run the current synthetic benchmark suite end to end and write a report into a stable repo location:
+
+```bash
+python3 scripts/run_benchmarks.py
+```
+
+This writes:
+
+- `benchmarks/results/current/summary.md`
+- `benchmarks/results/current/summary.json`
+- `benchmarks/results/current/per_case/<case_id>.json`
